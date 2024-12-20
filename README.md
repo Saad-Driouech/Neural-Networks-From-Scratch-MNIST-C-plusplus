@@ -17,15 +17,10 @@ The repository is organized as follows:
 > 2. "sgd.cpp" : Implementation of forward and backward pass of Stochastic Gradient Descent with Momentum<br>
 
 - `src/`: Includes implementation of network optimization methods<br>
-> 1. "eval.cpp" : Implementation of evaluation metric "Accuracy" to measure the model performance <br>
-> 2. "mnist_data_reader.cpp" : Implementation of module for reading the data i.e. reading images and labels <br>
-> 3. "network.cpp" : Contains the code to run the forward and backward pass of the full network architecture, which implements Fully connected and activation layers<br>
-
-- `src/mnist.cpp`: It has the main function which triggers the project. <br>
-
-- `src/test_image_reader.cpp`: Function to test if the images are read correctly. <br>
-
-- `src/test_label_reader.cpp`: Function to test if the labels are read correctly. <br>
+> 1. "eval.cpp" : Implementation of evaluation metric "Accuracy" to measure the model performance. <br>
+> 2. "mnist_data_reader.cpp" : Implementation of module for reading the data i.e. reading images and labels. <br>
+> 3. "network.cpp" : Contains the code to run the forward and backward pass of the full network architecture, which implements Fully connected and activation layers. <br>
+> 4. "src/mnist.cpp": It has the main function which triggers the project. <br>
 
 ## Running the pipeline
 We can test the implementation by running the following shell scripts with our own (and not publicly available) datasets:
